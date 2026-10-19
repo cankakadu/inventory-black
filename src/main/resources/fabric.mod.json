@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "inventoryblacklist",
+  "version": "${version}",
+  "name": "Inventory Blacklist",
+  "description": "Verhindert das versehentliche Droppen von bestimmten Items und Inventar-Slots.",
+  "authors": [
+    "Entwickler"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.inventoryblacklist.InventoryBlacklistClient"
+    ]
+  },
+  "mixins": [
+    "inventoryblacklist.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

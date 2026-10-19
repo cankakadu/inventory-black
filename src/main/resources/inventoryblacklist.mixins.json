@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.example.inventoryblacklist.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "HandledScreenMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
